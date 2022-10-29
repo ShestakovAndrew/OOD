@@ -8,6 +8,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DucksFn", "StrategyPattern\DucksFn\DucksFn.vcxproj", "{7A9C716D-296F-44E5-B93D-2A57A4D5B129}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. StrategyPattern", "1. StrategyPattern", "{384450E9-B68E-40E5-9FC4-B9FE84E80582}"
+	ProjectSection(SolutionItems) = preProject
+		StrategyPattern\StrategyDucks.drawio = StrategyPattern\StrategyDucks.drawio
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. VisitorPattern", "2. VisitorPattern", "{4E62268A-3057-4ECA-8EE4-64200C867C07}"
 EndProject
