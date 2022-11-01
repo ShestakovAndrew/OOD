@@ -1,0 +1,16 @@
+rectangle black skin 100 300 150 20
+rectangle black skin 155 180 10 50
+rectangle black skin 185 180 10 50
+triangle black blue 175 340 110 180 240 180
+circle black skin 175 350 35
+circle black black 165 360 2
+circle black black 185 360 2
+line skin 175 340 175 350
+line red 175 328 160 335
+line red 175 328 190 335
+triangle black red 175 385 150 400 150 370
+triangle black red 175 385 200 400 200 370
+circle black red 175 385 3
+circle black green 240 460 40
+line black 250 290 240 420
+circle yellow yellow 450 500 55

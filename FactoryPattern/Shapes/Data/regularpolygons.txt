@@ -1,0 +1,8 @@
+regularpolygon red red 10 400 400 270
+regularpolygon orange orange 9 400 400 240
+regularpolygon yellow yellow 8 400 400 210
+regularpolygon green green 7 400 400 180
+regularpolygon lightblue lightblue 6 400 400 150
+regularpolygon blue blue 5 400 400 120
+regularpolygon violet violet 4 400 400 90
+regularpolygon black black 3 400 400 60
