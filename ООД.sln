@@ -13,10 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. StrategyPattern", "1. St
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. VisitorPattern", "2. VisitorPattern", "{4E62268A-3057-4ECA-8EE4-64200C867C07}"
+	ProjectSection(SolutionItems) = preProject
+		VisitorPattern\VisitorWeatherStation.drawio = VisitorPattern\VisitorWeatherStation.drawio
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DecoratorPattern", "3. DecoratorPattern", "{04021C1F-C363-48C9-AB4D-2B7FA35201F3}"
+	ProjectSection(SolutionItems) = preProject
+		DecoratorPattern\DecoratorBeverages.drawio = DecoratorPattern\DecoratorBeverages.drawio
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. FactoryPattern", "4. FactoryPattern", "{65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}"
+	ProjectSection(SolutionItems) = preProject
+		FactoryPattern\FactoryShapes.drawio = FactoryPattern\FactoryShapes.drawio
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. CommandPattern", "5. CommandPattern", "{0824250D-0C78-4ECE-AF85-70A445FDC8CB}"
 EndProject
