@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN
 #include <sstream>
 
-#include "catch.hpp"
+#include <catch2/catch.hpp>
 #include "../ObjectAdapter/app.h"
 
 TEST_CASE("Drawing a line between BeginDraw() and EndDraw() should be successfully")

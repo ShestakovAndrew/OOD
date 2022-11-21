@@ -2,7 +2,8 @@
 #include "ICanvas.h"
 #include "Color.h"
 
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
+#pragma comment(lib, "winmm.lib")
 
 class CCanvas : public ICanvas
 {
