@@ -30,6 +30,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. CommandPattern", "5. CommandPattern", "{0824250D-0C78-4ECE-AF85-70A445FDC8CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. AdapterPattern", "6. AdapterPattern", "{8BBBEAB4-9FE4-4D1D-AC6A-D1D39A413F20}"
+	ProjectSection(SolutionItems) = preProject
+		AdapterPattern\ObjectAdapter.drawio = AdapterPattern\ObjectAdapter.drawio
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. CompositePattern", "7. CompositePattern", "{DE05C015-F45B-4E93-8C09-3C22017A2B43}"
 EndProject
@@ -88,6 +91,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A4
 		FactoryPattern\Shapes\Data\girl.txt = FactoryPattern\Shapes\Data\girl.txt
 		FactoryPattern\Shapes\Data\regularpolygons.txt = FactoryPattern\Shapes\Data\regularpolygons.txt
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapterTest", "AdapterPattern\ObjectAdapterTest\ObjectAdapterTest.vcxproj", "{A9419300-DA24-479C-ACB8-530AB3BE3D3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +286,14 @@ Global
 		{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36}.Release|x64.Build.0 = Release|x64
 		{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36}.Release|x86.ActiveCfg = Release|Win32
 		{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36}.Release|x86.Build.0 = Release|Win32
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Debug|x64.ActiveCfg = Debug|x64
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Debug|x64.Build.0 = Debug|x64
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Debug|x86.Build.0 = Debug|Win32
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x64.ActiveCfg = Release|x64
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x64.Build.0 = Release|x64
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x86.ActiveCfg = Release|Win32
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -312,6 +325,7 @@ Global
 		{8C45A243-E7E5-426F-BAE1-870D8DEEA8F9} = {6FE02DD0-D549-4EC1-A259-981E6A221447}
 		{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36} = {65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}
 		{A4A1BF80-8CFA-4537-B31C-2A6A6911FE77} = {65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}
+		{A9419300-DA24-479C-ACB8-530AB3BE3D3E} = {8BBBEAB4-9FE4-4D1D-AC6A-D1D39A413F20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30C52D30-D958-4546-94AE-9D727B75664A}
