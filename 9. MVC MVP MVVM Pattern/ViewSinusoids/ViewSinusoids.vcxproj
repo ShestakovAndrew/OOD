@@ -22,7 +22,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7d470a4f-3120-4d4f-8dbf-368d2747a761}</ProjectGuid>
+    <ProjectGuid>{4eda72a6-d197-4b42-aa0c-151832588963}</ProjectGuid>
     <RootNamespace>ViewSinusoids</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

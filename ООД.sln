@@ -3,96 +3,96 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ducks", "StrategyPattern\Ducks\Ducks.vcxproj", "{1246DC6B-2D89-43AA-B07F-604127DB237E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ducks", "1. StrategyPattern\Ducks\Ducks.vcxproj", "{1246DC6B-2D89-43AA-B07F-604127DB237E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DucksFn", "StrategyPattern\DucksFn\DucksFn.vcxproj", "{7A9C716D-296F-44E5-B93D-2A57A4D5B129}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DucksFn", "1. StrategyPattern\DucksFn\DucksFn.vcxproj", "{7A9C716D-296F-44E5-B93D-2A57A4D5B129}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. StrategyPattern", "1. StrategyPattern", "{384450E9-B68E-40E5-9FC4-B9FE84E80582}"
 	ProjectSection(SolutionItems) = preProject
-		StrategyPattern\StrategyDucks.drawio = StrategyPattern\StrategyDucks.drawio
+		1. StrategyPattern\StrategyDucks.drawio = 1. StrategyPattern\StrategyDucks.drawio
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. VisitorPattern", "2. VisitorPattern", "{4E62268A-3057-4ECA-8EE4-64200C867C07}"
 	ProjectSection(SolutionItems) = preProject
-		VisitorPattern\VisitorWeatherStation.drawio = VisitorPattern\VisitorWeatherStation.drawio
+		2. VisitorPattern\VisitorWeatherStation.drawio = 2. VisitorPattern\VisitorWeatherStation.drawio
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DecoratorPattern", "3. DecoratorPattern", "{04021C1F-C363-48C9-AB4D-2B7FA35201F3}"
 	ProjectSection(SolutionItems) = preProject
-		DecoratorPattern\DecoratorBeverages.drawio = DecoratorPattern\DecoratorBeverages.drawio
+		3. DecoratorPattern\DecoratorBeverages.drawio = 3. DecoratorPattern\DecoratorBeverages.drawio
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. FactoryPattern", "4. FactoryPattern", "{65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}"
 	ProjectSection(SolutionItems) = preProject
-		FactoryPattern\FactoryShapes.drawio = FactoryPattern\FactoryShapes.drawio
+		4. FactoryPattern\FactoryShapes.drawio = 4. FactoryPattern\FactoryShapes.drawio
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. CommandPattern", "5. CommandPattern", "{0824250D-0C78-4ECE-AF85-70A445FDC8CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. AdapterPattern", "6. AdapterPattern", "{8BBBEAB4-9FE4-4D1D-AC6A-D1D39A413F20}"
 	ProjectSection(SolutionItems) = preProject
-		AdapterPattern\ObjectAdapter.drawio = AdapterPattern\ObjectAdapter.drawio
+		6. AdapterPattern\ObjectAdapter.drawio = 6. AdapterPattern\ObjectAdapter.drawio
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. CompositePattern", "7. CompositePattern", "{DE05C015-F45B-4E93-8C09-3C22017A2B43}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. StatePattern", "8. StatePattern", "{316F20C6-A49E-46F5-A56F-E8C215014A59}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStation", "VisitorPattern\WeatherStation\WeatherStation.vcxproj", "{5DAB5C48-BCBE-47E6-B628-155363351669}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStation", "2. VisitorPattern\WeatherStation\WeatherStation.vcxproj", "{5DAB5C48-BCBE-47E6-B628-155363351669}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationDuo", "VisitorPattern\WeatherStationDuo\WeatherStationDuo.vcxproj", "{D1867E3E-2B64-4C17-BE89-8F92AE1EA4EA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationDuo", "2. VisitorPattern\WeatherStationDuo\WeatherStationDuo.vcxproj", "{D1867E3E-2B64-4C17-BE89-8F92AE1EA4EA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationPro", "VisitorPattern\WeatherStationPro\WeatherStationPro.vcxproj", "{B46EA035-7C95-4AAA-9DFF-C96BAE95743F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationPro", "2. VisitorPattern\WeatherStationPro\WeatherStationPro.vcxproj", "{B46EA035-7C95-4AAA-9DFF-C96BAE95743F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationProDuo", "VisitorPattern\WeatherStationProDuo\WeatherStationProDuo.vcxproj", "{598B2441-3330-4603-9898-64DAAB8D6C05}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationProDuo", "2. VisitorPattern\WeatherStationProDuo\WeatherStationProDuo.vcxproj", "{598B2441-3330-4603-9898-64DAAB8D6C05}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationProDuoSignals", "VisitorPattern\WeatherStationProDuoSignals\WeatherStationProDuoSignals.vcxproj", "{30E08C14-BDAD-4E7B-80E6-EFE87681C12D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationProDuoSignals", "2. VisitorPattern\WeatherStationProDuoSignals\WeatherStationProDuoSignals.vcxproj", "{30E08C14-BDAD-4E7B-80E6-EFE87681C12D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Beverages", "DecoratorPattern\Beverages\Beverages.vcxproj", "{9BBFFF75-1783-406C-BA02-3E68A1781E53}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Beverages", "3. DecoratorPattern\Beverages\Beverages.vcxproj", "{9BBFFF75-1783-406C-BA02-3E68A1781E53}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Streams", "DecoratorPattern\Streams\Streams.vcxproj", "{551DAE04-8C4C-4FD2-B06F-26FDE74D2E6A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Streams", "3. DecoratorPattern\Streams\Streams.vcxproj", "{551DAE04-8C4C-4FD2-B06F-26FDE74D2E6A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shapes", "FactoryPattern\Shapes\Shapes.vcxproj", "{BE2B63A4-4DBD-4A67-A368-6637CBE227F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shapes", "4. FactoryPattern\Shapes\Shapes.vcxproj", "{BE2B63A4-4DBD-4A67-A368-6637CBE227F5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "CommandPattern\Editor\Editor.vcxproj", "{22B13C25-BC38-4ADF-8391-1AFF68260999}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "5. CommandPattern\Editor\Editor.vcxproj", "{22B13C25-BC38-4ADF-8391-1AFF68260999}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RobotMacroCommand", "CommandPattern\RobotMacroCommand\RobotMacroCommand.vcxproj", "{B294BB50-4014-40A3-A559-899C81A5BB00}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RobotMacroCommand", "5. CommandPattern\RobotMacroCommand\RobotMacroCommand.vcxproj", "{B294BB50-4014-40A3-A559-899C81A5BB00}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassAdapter", "AdapterPattern\ClassAdapter\ClassAdapter.vcxproj", "{E02AE81A-C342-4FA6-9195-207FA2A96DB0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassAdapter", "6. AdapterPattern\ClassAdapter\ClassAdapter.vcxproj", "{E02AE81A-C342-4FA6-9195-207FA2A96DB0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapter", "AdapterPattern\ObjectAdapter\ObjectAdapter.vcxproj", "{36152110-D98D-449D-AA33-F0EDBD12597E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapter", "6. AdapterPattern\ObjectAdapter\ObjectAdapter.vcxproj", "{36152110-D98D-449D-AA33-F0EDBD12597E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Slides", "CompositePattern\Slides\Slides.vcxproj", "{29D2221F-7A14-42FB-8B1C-D9A6B593DB89}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Slides", "7. CompositePattern\Slides\Slides.vcxproj", "{29D2221F-7A14-42FB-8B1C-D9A6B593DB89}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GumballMachine", "StatePattern\GumballMachine\GumballMachine.vcxproj", "{A1A294BB-8AA2-42A7-9E6A-7DF45AF8B2B0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GumballMachine", "8. StatePattern\GumballMachine\GumballMachine.vcxproj", "{A1A294BB-8AA2-42A7-9E6A-7DF45AF8B2B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. MVC MVP MVVM Pattern", "9. MVC MVP MVVM Pattern", "{30A5FC07-FD87-4AD5-95A3-D30B7F66FFE3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiGumballMachine", "StatePattern\MultiGumballMachine\MultiGumballMachine.vcxproj", "{4DA378CB-A368-4490-A3FA-B80EB1F9A513}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiGumballMachine", "8. StatePattern\MultiGumballMachine\MultiGumballMachine.vcxproj", "{4DA378CB-A368-4490-A3FA-B80EB1F9A513}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiGumballMachineMenu", "StatePattern\MultiGumballMachineMenu\MultiGumballMachineMenu.vcxproj", "{5CFB859B-1730-46DA-B0B6-9CEE4E2FF9BC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiGumballMachineMenu", "8. StatePattern\MultiGumballMachineMenu\MultiGumballMachineMenu.vcxproj", "{5CFB859B-1730-46DA-B0B6-9CEE4E2FF9BC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniPowerPoint", "MVC MVP MVVM Pattern\MiniPowerPoint\MiniPowerPoint.vcxproj", "{A98EC12C-3369-4114-8836-C4F06DE7FBE1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewSinusoids", "ViewSinusoids\ViewSinusoids.vcxproj", "{7D470A4F-3120-4D4F-8DBF-368D2747A761}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniPowerPoint", "9. MVC MVP MVVM Pattern\MiniPowerPoint\MiniPowerPoint.vcxproj", "{A98EC12C-3369-4114-8836-C4F06DE7FBE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6AF96FC3-56AF-42E9-8114-9E960A84E0ED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationTest", "VisitorPattern\Tests\WeatherStationTest\WeatherStationTest.vcxproj", "{055EC099-3BAA-427B-B78D-692A8BA5E055}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherStationTest", "2. VisitorPattern\Tests\WeatherStationTest\WeatherStationTest.vcxproj", "{055EC099-3BAA-427B-B78D-692A8BA5E055}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6FE02DD0-D549-4EC1-A259-981E6A221447}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeveragesTest", "DecoratorPattern\Tests\BeveragesTest\BeveragesTest.vcxproj", "{8C45A243-E7E5-426F-BAE1-870D8DEEA8F9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeveragesTest", "3. DecoratorPattern\Tests\BeveragesTest\BeveragesTest.vcxproj", "{8C45A243-E7E5-426F-BAE1-870D8DEEA8F9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeTest", "FactoryPattern\ShapeTest\ShapeTest.vcxproj", "{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeTest", "4. FactoryPattern\ShapeTest\ShapeTest.vcxproj", "{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A4A1BF80-8CFA-4537-B31C-2A6A6911FE77}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "4. Examples", "{A4A1BF80-8CFA-4537-B31C-2A6A6911FE77}"
 	ProjectSection(SolutionItems) = preProject
-		FactoryPattern\Shapes\Data\girl.txt = FactoryPattern\Shapes\Data\girl.txt
-		FactoryPattern\Shapes\Data\regularpolygons.txt = FactoryPattern\Shapes\Data\regularpolygons.txt
+		4. FactoryPattern\Shapes\Data\girl.txt = 4. FactoryPattern\Shapes\Data\girl.txt
+		4. FactoryPattern\Shapes\Data\regularpolygons.txt = 4. FactoryPattern\Shapes\Data\regularpolygons.txt
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapterTest", "AdapterPattern\ObjectAdapterTest\ObjectAdapterTest.vcxproj", "{A9419300-DA24-479C-ACB8-530AB3BE3D3E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapterTest", "6. AdapterPattern\ObjectAdapterTest\ObjectAdapterTest.vcxproj", "{A9419300-DA24-479C-ACB8-530AB3BE3D3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewSinusoids", "9. MVC MVP MVVM Pattern\ViewSinusoids\ViewSinusoids.vcxproj", "{4EDA72A6-D197-4B42-AA0C-151832588963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -254,14 +254,6 @@ Global
 		{A98EC12C-3369-4114-8836-C4F06DE7FBE1}.Release|x64.Build.0 = Release|x64
 		{A98EC12C-3369-4114-8836-C4F06DE7FBE1}.Release|x86.ActiveCfg = Release|Win32
 		{A98EC12C-3369-4114-8836-C4F06DE7FBE1}.Release|x86.Build.0 = Release|Win32
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Debug|x64.ActiveCfg = Debug|x64
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Debug|x64.Build.0 = Debug|x64
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Debug|x86.ActiveCfg = Debug|Win32
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Debug|x86.Build.0 = Debug|Win32
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Release|x64.ActiveCfg = Release|x64
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Release|x64.Build.0 = Release|x64
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Release|x86.ActiveCfg = Release|Win32
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761}.Release|x86.Build.0 = Release|Win32
 		{055EC099-3BAA-427B-B78D-692A8BA5E055}.Debug|x64.ActiveCfg = Debug|x64
 		{055EC099-3BAA-427B-B78D-692A8BA5E055}.Debug|x64.Build.0 = Debug|x64
 		{055EC099-3BAA-427B-B78D-692A8BA5E055}.Debug|x86.ActiveCfg = Debug|Win32
@@ -294,6 +286,14 @@ Global
 		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x64.Build.0 = Release|x64
 		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x86.ActiveCfg = Release|Win32
 		{A9419300-DA24-479C-ACB8-530AB3BE3D3E}.Release|x86.Build.0 = Release|Win32
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Debug|x64.ActiveCfg = Debug|x64
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Debug|x64.Build.0 = Debug|x64
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Debug|x86.ActiveCfg = Debug|Win32
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Debug|x86.Build.0 = Debug|Win32
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x64.ActiveCfg = Release|x64
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x64.Build.0 = Release|x64
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x86.ActiveCfg = Release|Win32
+		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,7 +318,6 @@ Global
 		{4DA378CB-A368-4490-A3FA-B80EB1F9A513} = {316F20C6-A49E-46F5-A56F-E8C215014A59}
 		{5CFB859B-1730-46DA-B0B6-9CEE4E2FF9BC} = {316F20C6-A49E-46F5-A56F-E8C215014A59}
 		{A98EC12C-3369-4114-8836-C4F06DE7FBE1} = {30A5FC07-FD87-4AD5-95A3-D30B7F66FFE3}
-		{7D470A4F-3120-4D4F-8DBF-368D2747A761} = {30A5FC07-FD87-4AD5-95A3-D30B7F66FFE3}
 		{6AF96FC3-56AF-42E9-8114-9E960A84E0ED} = {4E62268A-3057-4ECA-8EE4-64200C867C07}
 		{055EC099-3BAA-427B-B78D-692A8BA5E055} = {6AF96FC3-56AF-42E9-8114-9E960A84E0ED}
 		{6FE02DD0-D549-4EC1-A259-981E6A221447} = {04021C1F-C363-48C9-AB4D-2B7FA35201F3}
@@ -326,6 +325,7 @@ Global
 		{FC71B429-FFE5-48FA-ADF0-65C08DBB1D36} = {65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}
 		{A4A1BF80-8CFA-4537-B31C-2A6A6911FE77} = {65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}
 		{A9419300-DA24-479C-ACB8-530AB3BE3D3E} = {8BBBEAB4-9FE4-4D1D-AC6A-D1D39A413F20}
+		{4EDA72A6-D197-4B42-AA0C-151832588963} = {30A5FC07-FD87-4AD5-95A3-D30B7F66FFE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30C52D30-D958-4546-94AE-9D727B75664A}
