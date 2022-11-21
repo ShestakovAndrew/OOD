@@ -1,7 +1,8 @@
-#include "Image.h"
-#include "ResizeImageCommand.h"
 #include <string>
 #include <random>
+
+#include "Image.h"
+#include "ResizeImageCommand.h"
 
 const std::string JPG = ".jpg";
 const std::string PNG = ".png";
@@ -32,7 +33,7 @@ std::string CreateRandomName(size_t length)
 CImage::CImage(Path const& path, int width, int height, ICommandSink& commandSink)
 	: m_commandSink(commandSink)
 {
-	if (!IsImage(path) || !std::filesystem::exists(path))
+	if (!IsImage(path) || !exists(path))
 	{
 		throw std::invalid_argument("invalid image path");
 	}
@@ -74,7 +75,7 @@ void CImage::Resize(int width, int height)
 	m_commandSink.SaveCommand(std::make_unique<CResizeImageCommand>(m_height, m_width, height, width));
 }
 
-void CImage::RemoveFile() noexcept
+void CImage::Remove() noexcept
 {
 	try
 	{
@@ -88,9 +89,5 @@ void CImage::RemoveFile() noexcept
 bool CImage::IsImage(Path const& path)
 {
 	auto extension = path.extension();
-	if (extension == JPG || extension == PNG || extension == SVG)
-	{
-		return true;
-	}
-	return false;
+	return (extension == JPG || extension == PNG || extension == SVG);
 }

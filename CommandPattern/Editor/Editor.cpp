@@ -24,7 +24,7 @@ CEditor::CEditor(std::istream& inStream, std::ostream& outStream)
 	m_menu.AddItem("save", "Save to HTML file. Args: <path>", std::bind(&CEditor::Save, this, _1));
 }
 
-void CEditor::Run()
+void CEditor::Start()
 {
 	m_menu.Run();
 }

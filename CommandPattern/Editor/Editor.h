@@ -6,7 +6,7 @@ class CEditor
 {
 public:
 	CEditor(std::istream& inStream = std::cin, std::ostream& outStream = std::cout);
-	void Run();
+	void Start();
 
 private:
 	void InsertParagraph(std::istream& in);

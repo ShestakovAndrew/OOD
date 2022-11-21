@@ -13,6 +13,41 @@
 
 const std::string IMAGES_DIR = "images";
 
+namespace
+{
+	std::string ConvertToHtmlString(std::string const& str)
+	{
+		std::string result;
+
+		for (auto ch : str)
+		{
+			switch (ch)
+			{
+			case '<':
+				result += "&lt;";
+				break;
+			case '>':
+				result += "&gt;";
+				break;
+			case '\"':
+				result += "&quot;";
+				break;
+			case '\'':
+				result += "&apos;";
+				break;
+			case '&':
+				result += "&amp;";
+				break;
+			default:
+				result += ch;
+				break;
+			}
+		}
+
+		return result;
+	}
+} // namespace
+
 CDocument::CDocument()
 	: m_commandSink(CHistoryAdapter(m_history))
 {
@@ -118,49 +153,14 @@ void CDocument::Redo()
 	m_history.Redo();
 }
 
-namespace
-{
-std::string ConvertToHtmlString(std::string const& str)
-{
-	std::string result;
-
-	for (auto ch : str)
-	{
-		switch (ch)
-		{
-		case '<':
-			result += "&lt;";
-			break;
-		case '>':
-			result += "&gt;";
-			break;
-		case '\"':
-			result += "&quot;";
-			break;
-		case '\'':
-			result += "&apos;";
-			break;
-		case '&':
-			result += "&amp;";
-			break;
-		default:
-			result += ch;
-			break;
-		}
-	}
-
-	return result;
-}
-} // namespace
-
 void CDocument::Save(Path const& path) const
 {
-	BoostOfstream html(path);
+	std::ofstream html(path);
 
 	Path directory = path.parent_path() / IMAGES_DIR;
-	if (!is_directory(directory))
+	if (!std::filesystem::is_directory(directory))
 	{
-		create_directory(directory);
+		std::filesystem::create_directory(directory);
 	}
 
 	html << "<html>\n"
@@ -179,9 +179,9 @@ void CDocument::Save(Path const& path) const
 
 			html << "<img src=\"" + src.string() + "\" width=\"" + std::to_string(width) + "\" height=\"" + std::to_string(height) + "\" />" << std::endl;
 
-			if (!exists(directory / src.filename()))
+			if (!std::filesystem::exists(directory / src.filename()))
 			{
-				copy_file(src, directory / src.filename());
+				std::filesystem::copy_file(src, directory / src.filename());
 			}
 		}
 		else

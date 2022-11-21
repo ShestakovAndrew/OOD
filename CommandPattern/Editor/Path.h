@@ -1,6 +1,4 @@
 #pragma once
-#include <boost/filesystem.hpp>
-#include <boost/filesystem/fstream.hpp>
+#include <filesystem>
 
-using Path = boost::filesystem::path;
-using BoostOfstream = boost::filesystem::ofstream;
+using Path = std::filesystem::path;

@@ -3,6 +3,6 @@
 int main()
 {
 	CEditor editor;
-	editor.Run();
+	editor.Start();
 	return 0;
 }
