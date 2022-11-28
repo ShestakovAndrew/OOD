@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:MiniPowerPoint"
         xmlns:ribbon="clr-namespace:System.Windows.Controls.Ribbon;assembly=System.Windows.Controls.Ribbon"
         mc:Ignorable="d"
-        Title="Mini Power Point" Height="524" Width="1169">
+        Title="Mini Power Point" Height="633" Width="645">
     <Grid>
-        <ribbon:Ribbon SelectedIndex="0"/>
+        <ribbon:Ribbon x:Name="Ribbon" SelectedIndex="0" Height="100" VerticalAlignment="Top"/>
+        <Canvas x:Name="MainCanvas" Margin="0,100,0,0" OpacityMask="Black"/>
     </Grid>
 </Window>
