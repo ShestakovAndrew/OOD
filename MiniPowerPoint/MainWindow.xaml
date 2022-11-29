@@ -5,18 +5,20 @@
 	xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
     xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
     xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
-    Title="Mini Power Point" Height="800" Width="1000"
+    Title="Mini Power Point" Height="800" Width="1000" Icon="/Resources/Palitra.png"
     >
     <DockPanel LastChildFill="True">
-        <dxr:RibbonControl DockPanel.Dock="Top" RibbonStyle="Office2019">
+        <dxr:RibbonControl DockPanel.Dock="Top" RibbonStyle="Office2019" AllowSimplifiedRibbon="True" RowIndent="0" ToolbarShowCustomizationButton="False">
             <dxr:RibbonControl.ToolbarItems>
+                <dxb:BarButtonItem Content="Undo" Glyph="/Resources/Undo_16x16.png" />
+                <dxb:BarButtonItem Content="Redo" Glyph="/Resources/Redo_16x16.png" />
             </dxr:RibbonControl.ToolbarItems>
             <dxr:RibbonDefaultPageCategory>
                 <dxr:RibbonPage Caption="Home">
                     <dxr:RibbonPageGroup Caption="Shapes">
-                        <dxb:BarButtonItem x:Name="biRectangle" Content="Rectangle" Glyph="/Resources/Rectangle_16x16.png" LargeGlyph="/Resources/Rectangle_32x32.png" />
-                        <dxb:BarButtonItem x:Name="biTriangle" Content="Triangle" Glyph="/Resources/Triangle_16x16.png" LargeGlyph="/Resources/Triangle_32x32.png" />
-                        <dxb:BarButtonItem x:Name="biEllipse" Content="Ellipse" Glyph="/Resources/Ellipse_16x16.png" LargeGlyph="/Resources/Ellipse_32x32.png" />
+                        <dxb:BarButtonItem x:Name="biRectangle" Content="Rectangle" Glyph="/Resources/Shapes/Rectangle_16x16.png" LargeGlyph="/Resources/Shapes/Rectangle_32x32.png" />
+                        <dxb:BarButtonItem x:Name="biTriangle" Content="Triangle" Glyph="/Resources/Shapes/Triangle_16x16.png" LargeGlyph="/Resources/Shapes/Triangle_32x32.png" />
+                        <dxb:BarButtonItem x:Name="biEllipse" Content="Ellipse" Glyph="/Resources/Shapes/Ellipse_16x16.png" LargeGlyph="/Resources/Shapes/Ellipse_32x32.png" />
                     </dxr:RibbonPageGroup>
                 </dxr:RibbonPage>
             </dxr:RibbonDefaultPageCategory>
@@ -27,5 +29,7 @@
             <dxr:RibbonPage Caption="Format">
             </dxr:RibbonPage>
         </dxr:RibbonControl>
+        <Canvas Background="Black"/>
+
     </DockPanel>
 </dx:ThemedWindow>
