@@ -8,7 +8,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Ellipse_16x16.png" />
+    <None Remove="Resources\Ellipse_16x16.png" />
+    <None Remove="Resources\Ellipse_32x32.png" />
+    <None Remove="Resources\Rectangle_16x16.png" />
+    <None Remove="Resources\Rectangle_32x32.png" />
+    <None Remove="Resources\Triangle_16x16.png" />
+    <None Remove="Resources\Triangle_32x32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DevExpress.Data" Version="22.1.6" />
+    <PackageReference Include="DevExpress.Images" Version="22.1.6" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="22.1.6" />
+    <PackageReference Include="DevExpress.Wpf.Ribbon" Version="22.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Ellipse_16x16.png" />
+    <Resource Include="Resources\Ellipse_32x32.png" />
+    <Resource Include="Resources\Rectangle_16x16.png" />
+    <Resource Include="Resources\Rectangle_32x32.png" />
+    <Resource Include="Resources\Triangle_16x16.png" />
+    <Resource Include="Resources\Triangle_32x32.png" />
   </ItemGroup>
 
 </Project>
