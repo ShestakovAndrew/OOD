@@ -16,20 +16,13 @@
             <dxr:RibbonDefaultPageCategory>
                 <dxr:RibbonPage Caption="Home">
                     <dxr:RibbonPageGroup Caption="Shapes">
-                        <dxb:BarButtonItem x:Name="biRectangle" Content="Rectangle" Glyph="/Resources/Shapes/Rectangle_16x16.png" LargeGlyph="/Resources/Shapes/Rectangle_32x32.png" />
-                        <dxb:BarButtonItem x:Name="biTriangle" Content="Triangle" Glyph="/Resources/Shapes/Triangle_16x16.png" LargeGlyph="/Resources/Shapes/Triangle_32x32.png" />
-                        <dxb:BarButtonItem x:Name="biEllipse" Content="Ellipse" Glyph="/Resources/Shapes/Ellipse_16x16.png" LargeGlyph="/Resources/Shapes/Ellipse_32x32.png" />
+                        <dxb:BarButtonItem x:Name="Rectangle" Content="Rectangle" Glyph="/Resources/Shapes/Rectangle_16x16.png" LargeGlyph="/Resources/Shapes/Rectangle_32x32.png" />
+                        <dxb:BarButtonItem x:Name="Triangle" Content="Triangle" Glyph="/Resources/Shapes/Triangle_16x16.png" LargeGlyph="/Resources/Shapes/Triangle_32x32.png" />
+                        <dxb:BarButtonItem x:Name="Ellipse" Content="Ellipse" Glyph="/Resources/Shapes/Ellipse_16x16.png" LargeGlyph="/Resources/Shapes/Ellipse_32x32.png" />
                     </dxr:RibbonPageGroup>
                 </dxr:RibbonPage>
             </dxr:RibbonDefaultPageCategory>
-            <dxr:RibbonPage Caption="Insert">
-            </dxr:RibbonPage>
-            <dxr:RibbonPage Caption="View">
-            </dxr:RibbonPage>
-            <dxr:RibbonPage Caption="Format">
-            </dxr:RibbonPage>
         </dxr:RibbonControl>
-        <Canvas Background="Black"/>
-
+        <Canvas/>
     </DockPanel>
 </dx:ThemedWindow>

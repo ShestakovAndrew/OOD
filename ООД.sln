@@ -92,7 +92,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapterTest", "6. Ada
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewSinusoids", "9. MVC MVP MVVM Pattern\ViewSinusoids\ViewSinusoids.vcxproj", "{4EDA72A6-D197-4B42-AA0C-151832588963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPowerPoint", "9. MVC MVP MVVM Pattern\MiniPowerPoint\MiniPowerPoint.csproj", "{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPowerPoint_Simple", "9. MVC MVP MVVM Pattern\MiniPowerPoint\MiniPowerPoint_Simple.csproj", "{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
