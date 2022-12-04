@@ -28,6 +28,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. FactoryPattern", "4. Fac
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. CommandPattern", "5. CommandPattern", "{0824250D-0C78-4ECE-AF85-70A445FDC8CB}"
+	ProjectSection(SolutionItems) = preProject
+		5. CommandPattern\UML\Editor\Editor.drawio = 5. CommandPattern\UML\Editor\Editor.drawio
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. AdapterPattern", "6. AdapterPattern", "{8BBBEAB4-9FE4-4D1D-AC6A-D1D39A413F20}"
 	ProjectSection(SolutionItems) = preProject
@@ -91,8 +94,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectAdapterTest", "6. AdapterPattern\ObjectAdapterTest\ObjectAdapterTest.vcxproj", "{A9419300-DA24-479C-ACB8-530AB3BE3D3E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewSinusoids", "9. MVC MVP MVVM Pattern\ViewSinusoids\ViewSinusoids.vcxproj", "{4EDA72A6-D197-4B42-AA0C-151832588963}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPowerPoint_Simple", "9. MVC MVP MVVM Pattern\MiniPowerPoint\MiniPowerPoint_Simple.csproj", "{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -380,18 +381,6 @@ Global
 		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x64.Build.0 = Release|x64
 		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x86.ActiveCfg = Release|Win32
 		{4EDA72A6-D197-4B42-AA0C-151832588963}.Release|x86.Build.0 = Release|Win32
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Debug|x64.Build.0 = Debug|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Debug|x86.Build.0 = Debug|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Release|x64.ActiveCfg = Release|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Release|x64.Build.0 = Release|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Release|x86.ActiveCfg = Release|Any CPU
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -423,7 +412,6 @@ Global
 		{A4A1BF80-8CFA-4537-B31C-2A6A6911FE77} = {65D9A11E-61B4-4BA2-B796-7B9DEBFA70D6}
 		{A9419300-DA24-479C-ACB8-530AB3BE3D3E} = {8BBBEAB4-9FE4-4D1D-AC6A-D1D39A413F20}
 		{4EDA72A6-D197-4B42-AA0C-151832588963} = {30A5FC07-FD87-4AD5-95A3-D30B7F66FFE3}
-		{730B9B94-2DF3-4EA4-9EEE-DF0F7005FAA5} = {30A5FC07-FD87-4AD5-95A3-D30B7F66FFE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30C52D30-D958-4546-94AE-9D727B75664A}
